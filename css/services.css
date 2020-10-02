@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.serviceImage{
+    background-color: #88afaf;
+    padding: 26px 10px;
+}
+
+
+.singleImg_1 {
+    margin-left: 100px;
+   
+}
+.singleImg_1 img{
+    max-width: 100%;
+}

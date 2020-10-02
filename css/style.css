@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Myriad Roman;
+    src: url("fonts/MyriadRomanRegular.woff");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#header {
+    background-color: #1D428A !important;
+}
+
+#headerLogo {
+    padding: 10px 0px;
+    width: 120px;
+}
+
+.phoneIcon {
+    width: 33px;
+    float: left;
+}
+
+.phoneIcon i {
+    color: #D8A537;
+    border: 2px solid #D8A537;
+    padding: 5px;
+    border-radius: 50%
+}
+
+.callustoday {
+    color: white;
+    margin-left: 55px;
+
+    width: 100%
+}
+
+.pnoneNumber {
+    color: #C1D72E;
+    float: left;
+
+}
+
+.contactInfo {
+    overflow: hidden;
+    padding: 20px 0;
+    margin-left: 20px
+}
+
+/*/top header section end/*/
+
+.homeNavigation {
+    background: #D8A537
+}
+
+.navbar-nav li a {
+    color: black;
+    font-weight: bold;
+    transition: color .5s
+}
+
+.navbar-nav li:hover a {
+    color: white !important;
+}
+
+.social {
+    margin-left: 333px;
+    margin-top: 5px;
+}
+
+.social div {
+    border-radius: 3px;
+
+
+    display: inline-block;
+}
+
+.social div i {
+    color: #fff;
+    
+
+
+}
+
+.fbIcon {
+    background: #1D428A;
+    padding: 4px 10px;
+}
+
+.twiterIcon {
+    background: #00AEDD;
+    padding: 4px 7px;
+}
+
+.youtubeIcon {
+    background: #880037;
+    padding: 4px 7px;
+}
+
+.instragranIcon {
+    background: #DD0061;
+    padding: 4px 9px;
+}
+
+/*/ header menu section end/*/
+
+
+/*/slider section end/*/
+#serviceSection {
+    background: rgb(24, 22, 22);
+}
+
+.serviceWripper {
+    text-align: center
+}
+
+.serviceTitle h1 {
+    text-transform: uppercase;
+    color: #D8A537;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.serviceDescription p {
+    color: white;
+    line-height: 28px;
+    padding-bottom: 12px;
+}
+
+/*/service section end/*/
+.serviceboxWrapper {
+    box-shadow: 1px 5px 30px -7px #000000a8;
+    overflow: hidden;
+    background: rgb(231 244 255);
+    margin-bottom: 30px;
+}
+
+.singleServiceBox {
+    float: left;
+    padding-top: 20px;
+    text-align: center
+}
+
+.sBoxImage img {
+    border: 2px solid white;
+    max-width: 100%;
+    margin-bottom: 10px
+}
+
+.sBoxTitle h4 {
+
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.sBoxDescription {
+    font-size: 14px;
+    padding-bottom: 35px;
+}
+
+/*/--- service box section end---/*/
+.ourgoalWrapper {
+    overflow: hidden;
+
+
+}
+
+.OurGoalImage img {
+    max-width: 100%;
+}
+
+#additionalSection {
+    background: #FDB927;
+}
+
+.quote {
+    padding: 30px;
+    text-align: center;
+}
+
+.getAquoreBtn {
+    margin-top: 20px;
+}
+
+.getAquoreBtn a {
+    background: #1D428A;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.quickContactWrapper {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.contactTitle h4 {
+    color: #1D428A;
+    font-weight: bold;
+}
+
+.quickContactWrapper p {
+    font-size: 11px;
+}
+
+.fornWrapper {
+    margin: auto;
+}
+
+.fornWrapper span {
+    color: #384e7a;
+}
+
+.fornWrapper input {
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.fornWrapper textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+#varifyCode {
+    width: min-content;
+}
+
+.capthaInput {
+    width: 50%;
+    float: left;
+}
+
+.capthaImage {
+    width: 50%;
+    float: left;
+}
+
+input#randomfield {
+    font-size: 26px;
+    padding: 0px;
+    width: 110px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+
+}
+
+.capthawrapper {
+    overflow: hidden;
+}
+
+#subbtn {
+    width: min-content;
+    padding: 2px 14px;
+    background: #1D428A;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 61px;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background: #0c0c0cd1;
+    color: #bdbdbd;
+}
+
+.footerIcon div {
+    width: min-content;
+    margin-bottom: 5px;
+    display: inline-block;
+
+    color: white;
+}
+
+.footerIcon div i {
+
+    color: white;
+}
+
+.footerIcon {
+
+    padding-bottom: 10px;
+}
